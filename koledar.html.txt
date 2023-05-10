@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="koledar.css">
+  <title>Koledar</title>
+</head>
+<body>
+  <div id="koledar">
+  </div>
+  <script src="koledar.js"></script>
+</body>
+</html>
