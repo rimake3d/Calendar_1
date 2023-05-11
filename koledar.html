@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html lang="sl">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="koledar.css">
-  <title>Koledar</title>
+    <title>Stock Calendar</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+        }
+        .calendar-day {
+            border: 1px solid #000;
+            padding: 10px;
+            position: relative;
+        }
+        .calendar-day .date {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;  /* Adjust the space as needed */
+        }
+        .calendar-day .stock {
+            font-size: 16px;
+            font-weight: bold;
+            position: absolute;
+            bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div id="koledar">
-  </div>
-  <script src="koledar.js"></script>
+    <h1>Stock Calendar - May 2023</h1>
+    <div class="calendar-grid">
+        <!-- May 1st -->
+        <div class="calendar-day">
+            <div class="date">1</div>
+            <div class="stock">
+                <a href="https://example.com/stock1">Stock 1</a>
+            </div>
+        </div>
+        <!-- End of May 1st -->
+        <!-- ... and so on, for each day of the month -->
+        <div class="calendar-day"><div class="date">2</div></div>
+        <div class="calendar-day"><div class="date">3</div></div>
+        <div class="calendar-day"><div class="date">4</div></div>
+        <div class="calendar-day"><div class="date">5</div></div>
+        <div class="calendar-day"><div class="date">6</div></div>
+        <div class="calendar-day"><div class="date">7</div></div>
+        <div class="calendar-day"><div class="date">8</div></div>
+	  <div class="calendar-day"><div class="date">9</div></div>
+	  <div class="calendar-day"><div class="date">10</div></div>
+	  <div class="calendar-day"><div class="date">11</div></div>
+	  <div class="calendar-day"><div class="date">12</div></div>
+	  <div class="calendar-day"><div class="date">13</div></div>
+	  <div class="calendar-day"><div class="date">14</div></div>
+	  <div class="calendar-day"><div class="date">15</div></div>
+	  <div class="calendar-day"><div class="date">16</div></div>
+	  <div class="calendar-day"><div class="date">17</div></div>
+	  <div class="calendar-day"><div class="date">18</div></div>
+	  <div class="calendar-day"><div class="date">19</div></div>
+	  <div class="calendar-day"><div class="date">20</div></div>
+	  <div class="calendar-day"><div class="date">21</div></div>
+	  <div class="calendar-day"><div class="date">22</div></div>
+	  <div class="calendar-day"><div class="date">23</div></div>
+	  <div class="calendar-day"><div class="date">24</div></div>
+	  <div class="calendar-day"><div class="date">25</div></div>
+	  <div class="calendar-day"><div class="date">27</div></div>
+	  <div class="calendar-day"><div class="date">28</div></div>
+	  <div class="calendar-day"><div class="date">29</div></div>
+	  <div class="calendar-day"><div class="date">30</div></div>
+        <div class="calendar-day"><div class="date">31</div></div>
+    </div>
 </body>
 </html>
